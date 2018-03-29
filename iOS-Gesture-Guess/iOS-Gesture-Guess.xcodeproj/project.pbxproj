@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D07C1F91FCD2730009025EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07C1F81FCD2730009025EE /* AppDelegate.swift */; };
+		3D07C1FB1FCD2730009025EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07C1FA1FCD2730009025EE /* ViewController.swift */; };
+		3D07C1FE1FCD2730009025EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D07C1FC1FCD2730009025EE /* Main.storyboard */; };
+		3D07C2001FCD2730009025EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D07C1FF1FCD2730009025EE /* Assets.xcassets */; };
+		3D07C2031FCD2730009025EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D07C2011FCD2730009025EE /* LaunchScreen.storyboard */; };
+		3D07C20B1FCD2BA8009025EE /* kerasGesturesModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3D07C20A1FCD2BA8009025EE /* kerasGesturesModel.mlmodel */; };
+		3D07C2101FCD2C19009025EE /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D07C20F1FCD2C19009025EE /* DrawView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D07C1F51FCD2730009025EE /* iOS-Gesture-Guess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Gesture-Guess.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D07C1F81FCD2730009025EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D07C1FA1FCD2730009025EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D07C1FD1FCD2730009025EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D07C1FF1FCD2730009025EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D07C2021FCD2730009025EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D07C2041FCD2730009025EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D07C20A1FCD2BA8009025EE /* kerasGesturesModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = kerasGesturesModel.mlmodel; sourceTree = "<group>"; };
+		3D07C20F1FCD2C19009025EE /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D07C1F21FCD2730009025EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D07C1EC1FCD2730009025EE = {
+			isa = PBXGroup;
+			children = (
+				3D07C1F71FCD2730009025EE /* iOS-Gesture-Guess */,
+				3D07C1F61FCD2730009025EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D07C1F61FCD2730009025EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D07C1F51FCD2730009025EE /* iOS-Gesture-Guess.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D07C1F71FCD2730009025EE /* iOS-Gesture-Guess */ = {
+			isa = PBXGroup;
+			children = (
+				3D07C20A1FCD2BA8009025EE /* kerasGesturesModel.mlmodel */,
+				3D07C1F81FCD2730009025EE /* AppDelegate.swift */,
+				3D07C1FA1FCD2730009025EE /* ViewController.swift */,
+				3D07C20F1FCD2C19009025EE /* DrawView.swift */,
+				3D07C1FC1FCD2730009025EE /* Main.storyboard */,
+				3D07C1FF1FCD2730009025EE /* Assets.xcassets */,
+				3D07C2011FCD2730009025EE /* LaunchScreen.storyboard */,
+				3D07C2041FCD2730009025EE /* Info.plist */,
+			);
+			path = "iOS-Gesture-Guess";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D07C1F41FCD2730009025EE /* iOS-Gesture-Guess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D07C2071FCD2730009025EE /* Build configuration list for PBXNativeTarget "iOS-Gesture-Guess" */;
+			buildPhases = (
+				3D07C1F11FCD2730009025EE /* Sources */,
+				3D07C1F21FCD2730009025EE /* Frameworks */,
+				3D07C1F31FCD2730009025EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-Gesture-Guess";
+			productName = "iOS-Gesture-Guess";
+			productReference = 3D07C1F51FCD2730009025EE /* iOS-Gesture-Guess.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D07C1ED1FCD2730009025EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Jakub Tlach";
+				TargetAttributes = {
+					3D07C1F41FCD2730009025EE = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3D07C1F01FCD2730009025EE /* Build configuration list for PBXProject "iOS-Gesture-Guess" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D07C1EC1FCD2730009025EE;
+			productRefGroup = 3D07C1F61FCD2730009025EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D07C1F41FCD2730009025EE /* iOS-Gesture-Guess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D07C1F31FCD2730009025EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D07C2031FCD2730009025EE /* LaunchScreen.storyboard in Resources */,
+				3D07C2001FCD2730009025EE /* Assets.xcassets in Resources */,
+				3D07C1FE1FCD2730009025EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D07C1F11FCD2730009025EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D07C1FB1FCD2730009025EE /* ViewController.swift in Sources */,
+				3D07C2101FCD2C19009025EE /* DrawView.swift in Sources */,
+				3D07C1F91FCD2730009025EE /* AppDelegate.swift in Sources */,
+				3D07C20B1FCD2BA8009025EE /* kerasGesturesModel.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D07C1FC1FCD2730009025EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D07C1FD1FCD2730009025EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D07C2011FCD2730009025EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D07C2021FCD2730009025EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D07C2051FCD2730009025EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D07C2061FCD2730009025EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D07C2081FCD2730009025EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W8M6CAUQE;
+				INFOPLIST_FILE = "iOS-Gesture-Guess/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RiseUp.iOS-Gesture-Guess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D07C2091FCD2730009025EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W8M6CAUQE;
+				INFOPLIST_FILE = "iOS-Gesture-Guess/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RiseUp.iOS-Gesture-Guess";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D07C1F01FCD2730009025EE /* Build configuration list for PBXProject "iOS-Gesture-Guess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D07C2051FCD2730009025EE /* Debug */,
+				3D07C2061FCD2730009025EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D07C2071FCD2730009025EE /* Build configuration list for PBXNativeTarget "iOS-Gesture-Guess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D07C2081FCD2730009025EE /* Debug */,
+				3D07C2091FCD2730009025EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D07C1ED1FCD2730009025EE /* Project object */;
+}
